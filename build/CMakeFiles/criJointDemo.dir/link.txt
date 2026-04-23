@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/criJointDemo.dir/examples/cri_joint_demo.cpp.o -o criJointDemo  libcodroid_cri.a 

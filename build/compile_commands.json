@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/build",
+  "command": "/usr/bin/g++ -DASIO_STANDALONE -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/asio/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/nlohmann_json/include\" -g -std=c++17 -o CMakeFiles/codroid_cri.dir/src/robot/DataPushConfigStore.cpp.o -c \"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/src/robot/DataPushConfigStore.cpp\"",
+  "file": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/src/robot/DataPushConfigStore.cpp"
+},
+{
+  "directory": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/build",
+  "command": "/usr/bin/g++ -DASIO_STANDALONE -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/asio/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/nlohmann_json/include\" -g -std=c++17 -o CMakeFiles/codroid_cri.dir/src/robot/RobotTcpClient.cpp.o -c \"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/src/robot/RobotTcpClient.cpp\"",
+  "file": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/src/robot/RobotTcpClient.cpp"
+},
+{
+  "directory": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/build",
+  "command": "/usr/bin/g++ -DASIO_STANDALONE -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/asio/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/nlohmann_json/include\" -g -std=c++17 -o CMakeFiles/codroid_cri.dir/src/robot/CriRealtimeParser.cpp.o -c \"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/src/robot/CriRealtimeParser.cpp\"",
+  "file": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/src/robot/CriRealtimeParser.cpp"
+},
+{
+  "directory": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/build",
+  "command": "/usr/bin/g++ -DASIO_STANDALONE -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/asio/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/nlohmann_json/include\" -g -std=c++17 -o CMakeFiles/codroid_cri.dir/src/robot/RobotUdpClient.cpp.o -c \"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/src/robot/RobotUdpClient.cpp\"",
+  "file": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/src/robot/RobotUdpClient.cpp"
+},
+{
+  "directory": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/build",
+  "command": "/usr/bin/g++ -DASIO_STANDALONE -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/asio/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/nlohmann_json/include\" -g -std=c++17 -o CMakeFiles/codroid_cri.dir/src/robot/RealtimePointSender.cpp.o -c \"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/src/robot/RealtimePointSender.cpp\"",
+  "file": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/src/robot/RealtimePointSender.cpp"
+},
+{
+  "directory": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/build",
+  "command": "/usr/bin/g++ -DASIO_STANDALONE -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/asio/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/nlohmann_json/include\" -g -std=c++17 -o CMakeFiles/criJointDemo.dir/examples/cri_joint_demo.cpp.o -c \"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/examples/cri_joint_demo.cpp\"",
+  "file": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/examples/cri_joint_demo.cpp"
+},
+{
+  "directory": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/build",
+  "command": "/usr/bin/g++ -DASIO_STANDALONE -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/asio/include\" -I\"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/third_party/nlohmann_json/include\" -g -std=c++17 -o CMakeFiles/criCartesianLiftDemo.dir/examples/cri_cartesian_lift_demo.cpp.o -c \"/home/ym/workspace/CodroidSDK (New)/CodroidCRI/examples/cri_cartesian_lift_demo.cpp\"",
+  "file": "/home/ym/workspace/CodroidSDK (New)/CodroidCRI/examples/cri_cartesian_lift_demo.cpp"
+}
+]

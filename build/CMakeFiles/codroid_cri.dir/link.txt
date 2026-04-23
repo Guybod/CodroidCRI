@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcodroid_cri.a CMakeFiles/codroid_cri.dir/src/robot/DataPushConfigStore.cpp.o CMakeFiles/codroid_cri.dir/src/robot/RobotTcpClient.cpp.o CMakeFiles/codroid_cri.dir/src/robot/CriRealtimeParser.cpp.o CMakeFiles/codroid_cri.dir/src/robot/RobotUdpClient.cpp.o CMakeFiles/codroid_cri.dir/src/robot/RealtimePointSender.cpp.o
+/usr/bin/ranlib libcodroid_cri.a
