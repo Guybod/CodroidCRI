@@ -135,8 +135,13 @@ int main() {
     } else if (!sender.startStreaming()) {
         std::cerr << "笛卡尔轨迹发送启动失败。" << std::endl;
     } else {
-        while (sender.isStreaming()) {
+        // 等待预规划轨迹发送完成；退出不依赖末端反馈抖动是否完全稳定。
+        auto deadline = std::chrono::steady_clock::now() + std::chrono::seconds(30);
+        while (sender.isStreaming() && std::chrono::steady_clock::now() <= deadline) {
             std::this_thread::sleep_for(std::chrono::milliseconds(100));
+        }
+        if (sender.isStreaming()) {
+            std::cerr << "轨迹发送超时，强制停止。" << std::endl;
         }
     }
 

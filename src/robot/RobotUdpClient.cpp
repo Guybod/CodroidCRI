@@ -3,7 +3,9 @@
 #include <asio.hpp>
 
 #include <array>
+#include <chrono>
 #include <cstring>
+#include <thread>
 
 namespace cri {
 
@@ -73,6 +75,11 @@ bool RobotUdpClient::startReceive() {
                 return false;
             }
             impl_->recvSocket.bind(bindEndpoint, ec);
+            if (ec) {
+                running_ = false;
+                return false;
+            }
+            impl_->recvSocket.non_blocking(true, ec);
             if (ec) {
                 running_ = false;
                 return false;
@@ -174,6 +181,10 @@ void RobotUdpClient::receiveLoop() {
         if (ec) {
             if (!running_.load()) {
                 break;
+            }
+            if (ec == asio::error::would_block || ec == asio::error::try_again) {
+                std::this_thread::sleep_for(std::chrono::milliseconds(2));
+                continue;
             }
             continue;
         }
